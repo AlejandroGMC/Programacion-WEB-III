@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .caja1 {
+            background-color: rgb(146, 173, 173);
+            text-align: center;
+            padding: 20px;
+        }
+        .caja2 {
+            background-color: cyan;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            color: black;
+        }
+        .caja6 {
+            display: flex;
+        }
+        .caja3 {
+            background-color: lightyellow;
+            width: 100px;
+            padding: 100px;
+            min-height: auto;
+        }
+        .caja5 {
+            background-color: rgb(241, 167, 69);
+            width: 100px;
+            padding: 100px;
+            min-height: 150px;
+        }
+        .caja3 a {
+            color: purple;
+            display: block;
+            margin: 10px 0;
+        }
+        .caja4 {
+            background-color: yellow;
+            padding: 20px;
+            flex-grow: 1;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="caja1">
+        <h1>Cabecera</h1>
+    </div>
+    <div class="caja6">
+        <nav class="caja3">
+            <h1>Menu</h1>
+            <a href="#">Opción 1</a>
+            <a href="#">Opción 2</a>
+            <a href="#">Opción 3</a>
+        </nav>
+        <main class="caja4">
+            <h2>Contenido principal</h2>
+            <p>Esto es un párrafo</p>
+        </main>
+        <main class="caja5">
+            <h2>Contenido secundario</h2>
+            <p>Esto es un párrafo1</p>
+        </main>
+    </div>
+    <div class="caja2">
+        <h1>Pie de página</h1>
+    </div>
+</body>
+</html>

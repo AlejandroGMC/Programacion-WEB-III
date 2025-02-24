@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .caja1 {
+            background-color: rgb(29, 214, 85);
+            text-align: center;
+            padding: 20px;
+        }
+        .caja2 {
+            background-color: cyan;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+            color: rgb(250, 24, 24);
+        }
+        h2 {
+            margin: 0;
+            color: rgb(4, 14, 43);
+        }
+        .caja6 {
+            display: flex;
+        }
+        .caja5 {
+            background-color: rgb(241, 167, 69);
+            width: 100px;
+            padding: 100px;
+            min-height: 220px;
+        }
+        .caja4 {
+            background-color: yellow;
+            padding: 20px;
+            flex-grow: 1;
+            min-height: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="caja1">
+        <h1>Título</h1>
+    </div>
+    <div class="caja6">
+        <main class="caja4">
+            <h2>Contenido</h2>
+        </main>
+        <main class="caja5">
+            <h2>Contenido derecho</h2>
+        </main>
+    </div>
+    <div class="caja2">
+        <h2>Pie de página</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .caja1 {
+            background-color: rgb(146, 173, 173);
+            text-align: center;
+            padding: 20px;
+        }
+        .caja2 {
+            background-color: cyan;
+            text-align: center;
+            padding: 20px;
+        }
+        .caja6 {
+            display: flex;
+        }
+        .caja3 {
+            background-color: rgb(207, 207, 40);
+            width: 100px;
+            padding: 100px;
+            min-height: 150px;
+            flex: 1; /*para alargar anchura*/
+            text-align: center; /*centro*/
+        }
+    </style>
+</head>
+<body>
+    <div class="caja1">
+        <h1>Cabecera</h1>
+    </div>
+    <div class="caja6">
+        <nav class="caja3">
+            <h1>Contenido</h1>
+            
+        </nav>
+    </div>
+    <div class="caja2">
+        <h1>Pie de página</h1>
+    </div>
+</body>
+</html>
